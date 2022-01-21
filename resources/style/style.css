@@ -4,7 +4,7 @@ body {
   background: red;
 }
 .social-media {
-    width: 40px;
+  width: 40px;
 }
 link {
   text-decoration: none;
@@ -30,7 +30,7 @@ link {
 .header-left {
   display: flex;
   flex-direction: column;
-  max-width:800px;
+  width: 80vw;
   gap: 18px;
 }
 .header-title {
@@ -52,9 +52,8 @@ link {
 }
 .header-right {
   background: #e2e2e2;
-  width: 800px;
-  height: 400px;
-  min-width: 800px;
+
+  width: 80vw;
   border-style: solid;
   border-radius: 5px;
   border-color: #ffffff;
@@ -80,15 +79,15 @@ link {
   padding-bottom: 50px;
   gap: 50px;
 }
-.info-title{
-    font-size: 25px;
-    font-weight: bold;
+.info-title {
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .credits {
-    font-size:18px;
-    font-weight: normal ;
-    color: #5e5e5e;
+  font-size: 18px;
+  font-weight: normal;
+  color: #5e5e5e;
 }
 .gallery-row {
   display: flex;
@@ -196,9 +195,9 @@ link {
     align-content: center;
   }
   .header-right {
+    width: 80vw;
+    height: 60vw;
     background: #e2e2e2;
-    width: 680px;
-    height: 340px;
     border-style: solid;
     border-radius: 5px;
     border-color: #ffffff;
@@ -221,13 +220,13 @@ link {
     border-radius: 5px;
     border-color: #33446b9c;
     border-width: 4px;
-    width: 500px;
-    height: 300px;
+    width: 60vw;
+    height: 45vw;
   }
   .info-title {
     margin-bottom: 10px;
   }
-  
+
   .quote-content {
     font-style: italic;
     font-size: 20px;
