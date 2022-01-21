@@ -153,6 +153,7 @@ link {
   padding-right: 50px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 .join-left {
   font-size: 20px;
@@ -178,6 +179,11 @@ link {
   text-align: center;
 }
 @media (max-width: 1250px) {
+    .header {
+        padding-left: 5vw;
+        padding-right: 5vw;
+      }
+    
   .header-content {
     display: flex;
     flex-direction: column-reverse;
@@ -185,8 +191,6 @@ link {
   }
   .header-title {
     text-align: center;
-    font-weight: bold;
-    font-size: 75px;
   }
   .header-left {
     display: flex;
@@ -197,11 +201,6 @@ link {
   .header-right {
     width: 80vw;
     height: 60vw;
-    background: #e2e2e2;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #ffffff;
-    border-width: 2px;
   }
 
   .gallery-row {
@@ -215,38 +214,28 @@ link {
     align-content: center;
   }
   .item-img {
-    background: #e2e2e2;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #33446b9c;
-    border-width: 4px;
     width: 60vw;
     height: 45vw;
   }
   .info-title {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+  }
+  .quote {
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 
   .quote-content {
     font-style: italic;
-    font-size: 20px;
+    font-size: 18px;
   }
   .author {
     font-weight: bold;
-    font-size: 14px;
+    font-size:14px;
   }
-  .join-content {
-    color: #ffffff;
-    background-color: #0000cc;
-    border-style: solid;
-    border-color: #e2e2e2;
-    border-radius: 15px;
-    border-width: 5px;
-    padding: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    display: flex;
-    justify-content: space-between;
+  .join-us {
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
   .join-left {
     font-size: 12px;
@@ -261,8 +250,8 @@ link {
     border-radius: 5px;
     border-style: solid;
     border-color: #004cff;
-    text-align: center;
     font-size: 12px;
-    width: 100px;
+    max-width:100px;
+    max-height: 30px;
   }
 }
