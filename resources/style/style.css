@@ -146,6 +146,7 @@ link {
 .author {
   font-weight: bold;
   font-size: 20px;
+  text-align: right;
 }
 .join-us {
   background-color: #ffffff;
@@ -166,7 +167,6 @@ link {
   padding-right: 50px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
 }
 .join-left {
   font-size: 20px;
