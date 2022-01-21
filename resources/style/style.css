@@ -190,7 +190,7 @@ link {
     align-items: center;
   }
   .header-title {
-    text-align: center;
+    text-align: justify;
   }
   .header-left {
     display: flex;
