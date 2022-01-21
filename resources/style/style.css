@@ -7,9 +7,13 @@ body {
   width: 40px;
 }
 
+.hero-title,
 .header-info,
 .info {
   font-family: 'Overpass', sans-serif;
+}
+.hero-title{
+  font-size: 25px;
 }
 
 link {
@@ -253,11 +257,15 @@ link {
     padding-left: 10vw;
     padding-right: 10vw;
   }
-  .join-left {
-    font-size: 12px;
+  .join-content{
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+  }
+  .join-left,
+  .join-title {
+    font-size: 8px;
   }
   .join-title {
-    font-size: 12px;
     font-weight: bold;
   }
   .join-button {
@@ -267,8 +275,7 @@ link {
     border-style: solid;
     border-color: #004cff;
     font-size: 8px;
-    max-width: 100px;
-    max-height: 30px;
+    max-width: 60px;
   }
   .copyright {
     font-size: 12px;
