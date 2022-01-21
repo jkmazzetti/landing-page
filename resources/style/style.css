@@ -6,6 +6,12 @@ body {
 .social-media {
   width: 40px;
 }
+
+.header-info,
+.info {
+  font-family: 'Overpass', sans-serif;
+}
+
 link {
   text-decoration: none;
 }
@@ -30,10 +36,11 @@ link {
 .header-left {
   display: flex;
   flex-direction: column;
-  width: 80vw;
+  max-width: 80vw;
   gap: 18px;
 }
 .header-title {
+  font-family: 'Allerta Stencil', sans-serif;
   font-weight: bold;
   font-size: 58px;
 }
@@ -51,13 +58,14 @@ link {
   max-width: 100px;
 }
 .header-right {
-  background: #e2e2e2;
-
-  width: 80vw;
+  max-width: 40vw;
+  max-height: 20vw;
   border-style: solid;
   border-radius: 5px;
   border-color: #ffffff;
   border-width: 2px;
+
+  box-shadow: 0 0 20px 20px #ffffff20;
 }
 .header-content {
   display: flex;
@@ -73,8 +81,8 @@ link {
   flex-direction: column;
   text-align: center;
   background: #ffffff;
-  padding-left: 15vw;
-  padding-right: 15vw;
+  padding-left: 18vw;
+  padding-right: 18vw;
   padding-top: 50px;
   padding-bottom: 50px;
   gap: 50px;
@@ -97,16 +105,16 @@ link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
+  gap: 10px;
+  padding-bottom: 15px;
+  box-shadow: 0 10px 10px #0000005f;
 }
 .item-img {
   background: #e2e2e2;
   border-style: solid;
-  border-radius: 5px;
-  border-color: #33446b9c;
-  border-width: 4px;
-  width: 250px;
-  height: 150px;
+  border-color: #000000;
+  border-width: 1px;
+  max-width: 250px;
 }
 .info-title {
   font-size: 25px;
@@ -127,6 +135,7 @@ link {
   background: #e2e2e2;
 }
 .quote-content {
+  font-family: 'Dancing Script', cursive;
   font-style: italic;
   font-size: 28px;
 }
@@ -179,11 +188,11 @@ link {
   text-align: center;
 }
 @media (max-width: 1250px) {
-    .header {
-        padding-left: 5vw;
-        padding-right: 5vw;
-      }
-    
+  .header {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
   .header-content {
     display: flex;
     flex-direction: column-reverse;
@@ -200,8 +209,8 @@ link {
     align-content: center;
   }
   .header-right {
-    width: 80vw;
-    height: 60vw;
+    max-width: 62.5vw;
+    max-height: 45vw;
   }
 
   .gallery-row {
@@ -213,10 +222,12 @@ link {
   .item {
     display: flex;
     align-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
   }
   .item-img {
-    width: 60vw;
-    height: 45vw;
+    max-width: 60vw;
+    max-height: 45vw;
   }
   .info-title {
     margin-bottom: 8px;
@@ -228,11 +239,11 @@ link {
 
   .quote-content {
     font-style: italic;
-    font-size: 18px;
+    font-size: 24px;
   }
   .author {
     font-weight: bold;
-    font-size:14px;
+    font-size: 14px;
   }
   .join-us {
     padding-left: 10vw;
@@ -252,13 +263,13 @@ link {
     border-style: solid;
     border-color: #004cff;
     font-size: 8px;
-    max-width:100px;
+    max-width: 100px;
     max-height: 30px;
   }
-  .copyright{
-      font-size: 12px;
+  .copyright {
+    font-size: 12px;
   }
-  .credits{
+  .credits {
     font-size: 12px;
   }
 }
