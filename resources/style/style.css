@@ -10,9 +10,9 @@ body {
 .hero-title,
 .header-info,
 .info {
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
 }
-.hero-title{
+.hero-title {
   font-size: 25px;
 }
 
@@ -44,7 +44,7 @@ link {
   gap: 18px;
 }
 .header-title {
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
   font-weight: bold;
   font-size: 58px;
 }
@@ -65,11 +65,9 @@ link {
   max-width: 40vw;
   max-height: 20vw;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 2px;
   border-color: #ffffff;
   border-width: 2px;
-
-  box-shadow: 0 0 20px 20px #ffffff20;
 }
 .header-content {
   display: flex;
@@ -141,7 +139,7 @@ link {
   background: #e2e2e2;
 }
 .quote-content {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-style: italic;
   font-size: 28px;
 }
@@ -150,7 +148,9 @@ link {
   font-size: 20px;
 }
 .join-us {
-  background-color: #ffffff;
+  background-image: url("../images/photos/Tafí\ del\ valle.png");
+  background-size: cover;
+  background-attachment: fixed;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 30vw;
@@ -158,9 +158,8 @@ link {
 }
 .join-content {
   color: #ffffff;
-  background-color: #0000cc;
   border-style: solid;
-  border-color: #e2e2e2;
+  background: #33446b;
   border-radius: 15px;
   border-width: 5px;
   padding: 25px;
@@ -178,11 +177,11 @@ link {
   font-weight: bold;
 }
 .join-button {
-  background: #ffffff;
-  color: #004cff;
+  background: #33446b;
+  color: #ffffff;
   border-radius: 5px;
   border-style: solid;
-  border-color: #004cff;
+  border-color: #ffffff;
   text-align: center;
   font-size: 18px;
   width: 150px;
@@ -259,7 +258,7 @@ link {
     padding-left: 10vw;
     padding-right: 10vw;
   }
-  .join-content{
+  .join-content {
     padding-left: 2.5vw;
     padding-right: 2.5vw;
   }
@@ -271,11 +270,6 @@ link {
     font-weight: bold;
   }
   .join-button {
-    background: #ffffff;
-    color: #004cff;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: #004cff;
     font-size: 8px;
     max-width: 60px;
   }
