@@ -200,6 +200,7 @@ link {
     text-align: justify;
   }
   .header-title {
+    font-size: 36px;
     text-align: left;
   }
   .header-left {
@@ -233,13 +234,13 @@ link {
     margin-bottom: 8px;
   }
   .quote {
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
   }
 
   .quote-content {
     font-style: italic;
-    font-size: 24px;
+    font-size: 16px;
   }
   .author {
     font-weight: bold;
