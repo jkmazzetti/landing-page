@@ -194,6 +194,8 @@ link {
   }
 
   .header-content {
+    padding-top: 25px;
+    padding-bottom: 25px;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
