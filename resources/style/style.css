@@ -241,17 +241,16 @@ link {
     margin-bottom: 8px;
   }
   .quote {
-    padding-left: 10vw;
-    padding-right: 10vw;
+    gap: 15px;
   }
 
   .quote-content {
     font-style: italic;
-    font-size: 12px;
+    font-size: 16px;
   }
   .author {
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
   }
   .join-us {
     padding-left: 10vw;
