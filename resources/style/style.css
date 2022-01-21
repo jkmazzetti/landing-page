@@ -84,7 +84,9 @@ link {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background: #ffffff;
+  background-image: url("../images/photos/Tafí\ del\ valle.png");
+  background-size: cover;
+  background-attachment: fixed;
   padding-left: 18vw;
   padding-right: 18vw;
   padding-top: 50px;
