@@ -254,4 +254,7 @@ link {
     max-width:100px;
     max-height: 30px;
   }
+  .copyright{
+      font-size: 12px;
+  }
 }
