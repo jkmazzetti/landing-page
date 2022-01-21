@@ -1,0 +1,128 @@
+body{
+    padding:0;
+    margin: 0;
+    background: red;
+}
+link{
+    text-decoration: none;
+}
+.hero{
+    background: #33446b;
+    color: #ffffff;
+}
+.header{
+    background: #25314e;
+    display: flex;
+    padding-left: 18vw;
+    padding-right: 18vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-links{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    list-style-type: none;
+}
+.header-left{
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+}
+.header-right{
+    background: #e2e2e2;
+    width:1000px;
+    height:250px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #ffffff;
+    border-width: 2px ;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 18vw;
+    padding-right: 18vw;
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #ffffff;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top:50px;
+    padding-bottom:50px;
+    gap: 50px;
+}
+.gallery-row{
+    display: flex;
+    justify-content:space-between;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.item-img{
+    background: #e2e2e2;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #33446b;
+    border-width: 2px ;
+    width:150px;
+    height:90px;
+}
+.info-gallery{    
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.quote{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top:50px;
+    padding-bottom:50px;
+    background: #e2e2e2;
+}
+.quote-content{
+    font-style: italic;
+}
+.author{
+    font-weight: bold;
+}
+.join-us{
+    background-color: #ffffff;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left: 18vw;
+    padding-right: 18vw;
+}
+.join-content{
+    color: #ffffff;
+    background-color: #0000CC;
+    border-style: solid;
+    border-color: #e2e2e2;
+    border-radius: 15px;
+    border-width: 5px;
+    padding:25px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.join-title{
+    font-weight: bold;
+}
+.copyright{
+    background: #25314e;
+    color: #ffffff;
+    padding: 25px;
+    text-align: center;
+}
