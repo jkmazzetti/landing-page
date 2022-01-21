@@ -188,9 +188,10 @@ link {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    text-align: justify;
   }
   .header-title {
-    text-align: justify;
+    text-align: left;
   }
   .header-left {
     display: flex;
@@ -241,7 +242,7 @@ link {
     font-size: 12px;
   }
   .join-title {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bold;
   }
   .join-button {
@@ -250,7 +251,7 @@ link {
     border-radius: 5px;
     border-style: solid;
     border-color: #004cff;
-    font-size: 12px;
+    font-size: 8px;
     max-width:100px;
     max-height: 30px;
   }
