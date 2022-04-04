@@ -1,11 +1,21 @@
 body {
   padding: 0;
   margin: 0;
-  background: red;
+  background: rgb(255, 255, 255);
 }
 .social-media {
-    width: 40px;
+  width: 40px;
 }
+
+.hero-title,
+.header-info,
+.info {
+  font-family: "Overpass", sans-serif;
+}
+.hero-title {
+  font-size: 25px;
+}
+
 link {
   text-decoration: none;
 }
@@ -30,10 +40,11 @@ link {
 .header-left {
   display: flex;
   flex-direction: column;
-  max-width:800px;
+  max-width: 80vw;
   gap: 18px;
 }
 .header-title {
+  font-family: "Allerta Stencil", sans-serif;
   font-weight: bold;
   font-size: 58px;
 }
@@ -51,12 +62,10 @@ link {
   max-width: 100px;
 }
 .header-right {
-  background: #e2e2e2;
-  width: 800px;
-  height: 400px;
-  min-width: 800px;
+  max-width: 40vw;
+  max-height: 20vw;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 2px;
   border-color: #ffffff;
   border-width: 2px;
 }
@@ -73,22 +82,24 @@ link {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background: #ffffff;
-  padding-left: 15vw;
-  padding-right: 15vw;
+  background-image: url("../images/photos/Tafí\ del\ valle.png");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-left: 18vw;
+  padding-right: 18vw;
   padding-top: 50px;
   padding-bottom: 50px;
   gap: 50px;
 }
-.info-title{
-    font-size: 25px;
-    font-weight: bold;
+.info-title {
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .credits {
-    font-size:18px;
-    font-weight: normal ;
-    color: #5e5e5e;
+  font-size: 18px;
+  font-weight: normal;
+  color: #5e5e5e;
 }
 .gallery-row {
   display: flex;
@@ -98,16 +109,16 @@ link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
+  gap: 10px;
+  padding-bottom: 15px;
+  box-shadow: 0 10px 10px #0000005f;
 }
 .item-img {
   background: #e2e2e2;
   border-style: solid;
-  border-radius: 5px;
-  border-color: #33446b9c;
-  border-width: 4px;
-  width: 250px;
-  height: 150px;
+  border-color: #000000;
+  border-width: 1px;
+  max-width: 250px;
 }
 .info-title {
   font-size: 25px;
@@ -128,6 +139,7 @@ link {
   background: #e2e2e2;
 }
 .quote-content {
+  font-family: "Dancing Script", cursive;
   font-style: italic;
   font-size: 28px;
 }
@@ -136,7 +148,9 @@ link {
   font-size: 20px;
 }
 .join-us {
-  background-color: #ffffff;
+  background-image: url("../images/photos/Tafí\ del\ valle.png");
+  background-size: cover;
+  background-attachment: fixed;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 30vw;
@@ -144,9 +158,8 @@ link {
 }
 .join-content {
   color: #ffffff;
-  background-color: #0000cc;
   border-style: solid;
-  border-color: #e2e2e2;
+  background: #33446b;
   border-radius: 15px;
   border-width: 5px;
   padding: 25px;
@@ -154,6 +167,7 @@ link {
   padding-right: 50px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 .join-left {
   font-size: 20px;
@@ -163,11 +177,11 @@ link {
   font-weight: bold;
 }
 .join-button {
-  background: #ffffff;
-  color: #004cff;
+  background: #33446b;
+  color: #ffffff;
   border-radius: 5px;
   border-style: solid;
-  border-color: #004cff;
+  border-color: #ffffff;
   text-align: center;
   font-size: 18px;
   width: 150px;
@@ -179,15 +193,23 @@ link {
   text-align: center;
 }
 @media (max-width: 1250px) {
+  .header {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
   .header-content {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    gap: 25px;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    text-align: justify;
   }
   .header-title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 75px;
+    font-size: 36px;
+    text-align: left;
   }
   .header-left {
     display: flex;
@@ -196,13 +218,8 @@ link {
     align-content: center;
   }
   .header-right {
-    background: #e2e2e2;
-    width: 680px;
-    height: 340px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #ffffff;
-    border-width: 2px;
+    max-width: 62.5vw;
+    max-height: 45vw;
   }
 
   .gallery-row {
@@ -214,56 +231,52 @@ link {
   .item {
     display: flex;
     align-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
   }
   .item-img {
-    background: #e2e2e2;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #33446b9c;
-    border-width: 4px;
-    width: 500px;
-    height: 300px;
+    max-width: 60vw;
+    max-height: 45vw;
   }
   .info-title {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
-  
+  .quote {
+    padding-left: 16vw;
+    padding-right: 16vw;
+  }
+
   .quote-content {
     font-style: italic;
-    font-size: 20px;
+    font-size: 16px;
   }
   .author {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 10px;
+  }
+  .join-us {
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
   .join-content {
-    color: #ffffff;
-    background-color: #0000cc;
-    border-style: solid;
-    border-color: #e2e2e2;
-    border-radius: 15px;
-    border-width: 5px;
-    padding: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    display: flex;
-    justify-content: space-between;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
   }
-  .join-left {
-    font-size: 12px;
+  .join-left,
+  .join-title {
+    font-size: 8px;
   }
   .join-title {
-    font-size: 18px;
     font-weight: bold;
   }
   .join-button {
-    background: #ffffff;
-    color: #004cff;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: #004cff;
-    text-align: center;
+    font-size: 8px;
+    max-width: 60px;
+  }
+  .copyright {
     font-size: 12px;
-    width: 100px;
+  }
+  .credits {
+    font-size: 12px;
   }
 }
